@@ -1,3 +1,8 @@
+# https://www.youtube.com/watch?v=cVZMah9kEjI&ab_channel=FelixTechTipshttps://www.youtube.com/watch?v=cVZMah9kEjI&ab_channel=FelixTechTips
+
+# OVERVIEW
+# - Divide and conquer algorithm : The problem is divided into multiple subproblems recursively until they become simple to solve, solutions are combined to solve original problem
+# - It has O(n * log(n)) running time - Which is the optimal running time for comparison based algorith
 def merge_sort(arr):
     if len(arr) > 1:
         left_arr = arr[:len(arr)//2]

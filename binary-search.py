@@ -11,6 +11,8 @@ def linear_search(data, target):
     return False
 
 # Iterative Binary Search
+# Time Complexity: O (log n)
+
 def binary_search_iterative(data, target):
     low = 0
     high = len(data) - 1
@@ -35,6 +37,8 @@ def binary_search_iterative(data, target):
 # 3. Else If x is greater than the mid element, then x can only lie in the right half subarray after the mid element.
 # So we recur for the right half.
 # 4. Else (x is smaller) recur for the left half.
+
+# Time Complexity: O(log n)
 
 def binary_search_recursive(data,target, low, high):
     # Base function
